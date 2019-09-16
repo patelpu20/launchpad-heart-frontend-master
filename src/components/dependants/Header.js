@@ -90,7 +90,7 @@ export const Header = () => {
   const { pageTitle } = useContext(LayoutContext)
   const [showPopOver,setShowPopOver] = useState(null);
   const [notifications, setNotifications] = useState([{patient:"Dave",condition:"Blood pressure high"},{patient:"John Doe",condition:"High fever"},
-  {patient:"Sadia",condition:"Headache, Back pain etc"},{patient:"Imam",condition:"Insomnia"},{patient:"Safat",condition:"Heart Palpitations"},{patient:"Ancoln",condition:"Dead"}]);
+  {patient:"Sadia",condition:"Headache, Back pain etc"},{patient:"Imam",condition:"Insomnia"},{patient:"Safat",condition:"Heart Palpitations"},{patient:"Ancoln",condition:"Dead"},{patient:"Tim",condition:"Insomnia"}]);
   const handleDrawerOpen = () => {
     setOpen(true);
   };
