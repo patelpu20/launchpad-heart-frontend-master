@@ -60,10 +60,70 @@ export default function OutlinedTextFields() {
                     <form className={classes.container} noValidate autoComplete="on">
                         <TextField
                             id="outlined-name"
-                            label="Name"
+                            label="Title"
                             className={classes.textField}
-                            value={values.name}
-                            onChange={handleChange('name')}
+                            value={values.title}
+                            onChange={handleChange('title')}
+                            margin="normal"
+                            variant="outlined"
+                        />
+
+                        <TextField
+                            id="outlined-name"
+                            label="First Name"
+                            className={classes.textField}
+                            value={values.firstName}
+                            onChange={handleChange('firstName')}
+                            margin="normal"
+                            variant="outlined"
+                        />
+
+                        <TextField
+                            id="outlined-name"
+                            label="Middle Name"
+                            className={classes.textField}
+                            value={values.middleName}
+                            onChange={handleChange('middleName')}
+                            margin="normal"
+                            variant="outlined"
+                        />
+
+                        <TextField
+                            id="outlined-name"
+                            label="Last Name"
+                            className={classes.textField}
+                            value={values.lastName}
+                            onChange={handleChange('lastName')}
+                            margin="normal"
+                            variant="outlined"
+                        />
+
+                        <TextField
+                            id="outlined-name"
+                            label="Date of Birth"
+                            className={classes.textField}
+                            value={values.dateOfBirth}
+                            onChange={handleChange('dateOfBirth')}
+                            margin="normal"
+                            variant="outlined"
+                        />
+
+                        <TextField
+                            id="outlined-name"
+                            label="Medicare Number"
+                            className={classes.textField}
+                            value={values.madicareNumber}
+                            onChange={handleChange('medicareNumber')}
+                            margin="normal"
+                            variant="outlined"
+                        />
+
+                        <TextField
+                            id="outlined-name"
+                            label="Height"
+                            className={classes.textField}
+                            value={values.height}
+                            onChange={handleChange('height')}
                             margin="normal"
                             variant="outlined"
                         />
